@@ -14,4 +14,5 @@ Essa aplicação utiliza como linguagem o [Python 3.9](https://www.python.org/).
 
 ### Execução local
 É possível executar localmente também. Para isso, instale os pacotes presentes no requirements.txt e configure as variáveis de ambiente de acordo com as informações da sua fila SQS e do seu tópico Pub/Sub. Com tudo isso pronto, é só executar o arquivo.
+
 Caso queira deployar a function, a [documentação](https://cloud.google.com/functions/docs/deploy?hl=pt-br#console) oficial mostra como. Caso o fluxo de mensagens seja grande durante o dia, um Cloud [Scheduler](https://cloud.google.com/scheduler?hl=pt-br) pode ser configurado para triggar a function com frequência.
